@@ -1,0 +1,41 @@
+.navbar {
+	height: 80px;
+	padding: 10px 200px;
+	// margin-bottom: 20px;
+
+	.wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.left {
+		align-items: center;
+		display: flex;
+		gap: 20px;
+
+		.item {
+			margin-left: 20px;
+		}
+
+		.link {
+			text-decoration: none;
+			color: white;
+		}
+	}
+
+	.right {
+		align-items: center;
+		display: flex;
+		gap: 20px;
+
+		.item {
+			margin-left: 20px;
+		}
+
+		.link {
+			text-decoration: none;
+			color: white;
+		}
+	}
+}

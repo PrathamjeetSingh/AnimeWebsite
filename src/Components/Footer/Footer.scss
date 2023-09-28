@@ -1,0 +1,27 @@
+.footer {
+	height: 100px;
+	padding: 80px 250px;
+
+	.top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		hr {
+			width: 50px;
+			transform: rotate(-65deg);
+		}
+
+		.icon {
+			width: 100px;
+
+			img {
+				width: 80px;
+			}
+		}
+	}
+
+	.bottom {
+		display: flex;
+	}
+}
